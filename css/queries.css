@@ -43,15 +43,26 @@
         font-size: 30px;
     }
 
-    @media only screen and (max-width:320px) {
-        .Work-Product h3 {
-            font-size: 30px;
-        }
+    .jumbotron3 {
+        background-image: none;
+    }
+}
 
-        .Litigation_Support h3 {
-            font-size: 20px;
-        }
+@media only screen and (max-width:320px) {
+    .Work-Product h3 {
+        font-size: 30px;
+    }
 
-        .Security_Cols h3 {
-            font-size: 20px;
-        }
+    .Litigation_Support h3 {
+        font-size: 20px;
+    }
+
+    .Security_Cols h3 {
+        font-size: 20px;
+    }
+
+    .jumbotron3 {
+        background-image: none;
+    }
+
+}
