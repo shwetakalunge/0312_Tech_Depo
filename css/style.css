@@ -163,3 +163,37 @@ body {
 .Main_long_copy_button {
     text-align: center
 }
+/*---------------------------------------------------------------------------------------------------------------------*/
+.Main_GridImage {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.Main_GridImage_Header {
+    color: white;
+    padding: 20px;
+}
+
+.Main_GridImage_Header p {
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.GridImage {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+
+.GridImage img {}
+
+.GridImage1 {
+    width: 250px
+}
+
+.GridImage li {
+    margin-left: 15px;
+    font-family: ProximaNova-Regular;
+    font-size: 17px;
+}
+
