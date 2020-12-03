@@ -279,4 +279,34 @@ body {
     border-radius: 5px;
     border: 1px solid black
 }
-/*-----------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.Litigation_Support {
+    background-color: black;
+    color: white;
+    padding: 60px 0px;
+}
+
+.Litigation_Support h3 {
+    font-size: 30px;
+
+
+}
+
+.Litigation_Support p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 30px
+}
+
+.Litigation_Support-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
