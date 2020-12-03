@@ -26,10 +26,16 @@
     .banner-bottom-text p {
         font-size: 10px;
     }
-     .video-text p {
+
+    .video-text p {
         font-size: 15px;
     }
+
     .jumbotron2 {
         height: auto;
+    }
+
+    .Work-Product h3 {
+        font-size: 30px;
     }
 }
