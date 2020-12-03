@@ -123,3 +123,10 @@ body {
     font-family: ProximaNova-Regular;
 }
 /*--------------------------*/
+.video-text p {
+    font-size: 35px;
+    font-family: 'PlayfairDisplay-Regular';
+    color: #090909;
+
+}
+/*--------------------------------------------------------------------------------------------------------------*/
