@@ -29,5 +29,7 @@
      .video-text p {
         font-size: 15px;
     }
-
+    .jumbotron2 {
+        height: auto;
+    }
 }
