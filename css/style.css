@@ -397,3 +397,61 @@ body {
     border: 1px solid black;
     margin-top: 25px;
 }
+/*--------------------------------------*/
+.Schedule_Depo {
+
+    position: relative;
+    padding: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(#1c1c1c)), url(../Assets/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+
+
+}
+
+.Schedule_Depo_Main {
+    max-width: 800px;
+    margin: auto
+}
+
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2em;
+    line-height: 38px;
+    margin-bottom: 50px;
+    color: White;
+
+
+}
+
+
+.form_box {
+    padding: 12px;
+}
+
+.ContactForm_Btn {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px
+}
+
+input[type=text],
+input[type=number] {
+    background: none;
+    border-radius: 0px;
+    border: 1px solid white;
+    color: white
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
