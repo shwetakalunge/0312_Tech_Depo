@@ -399,16 +399,13 @@ body {
 }
 /*--------------------------------------*/
 .Schedule_Depo {
-
     position: relative;
     padding: 30px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(#1c1c1c)), url(../Assets/banner2.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 60px;
-    height: auto;
-
-
+    height: 100vh;
 }
 
 .Schedule_Depo_Main {
@@ -455,4 +452,7 @@ input[type=number] {
     color: white
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
