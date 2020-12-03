@@ -39,3 +39,8 @@
         font-size: 30px;
     }
 }
+@media only screen and (max-width:320px) {
+    .Work-Product h3 {
+        font-size: 30px;
+    }
+}
