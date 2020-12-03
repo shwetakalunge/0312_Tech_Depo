@@ -130,3 +130,36 @@ body {
 
 }
 /*--------------------------------------------------------------------------------------------------------------*/
+
+.long_copy::before,
+.long_copy::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto;
+}
+
+.long_copy {
+    background-color: white;
+    margin-top: 30px;
+    font-family: 'Kanit';
+}
+
+.long_copy_button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 0px solid black;
+    margin-bottom: 30px;
+    min-height: 60px;
+    max-width: 230px;
+    width: 100%;
+
+}
+
+.Main_long_copy_button {
+    text-align: center
+}
