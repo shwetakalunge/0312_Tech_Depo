@@ -310,6 +310,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
+/*----------------------------------------------------------------------------------------------------------*/
 .Security_Cols {
     background-color: #ededed;
     padding: 60px 0px;
@@ -347,3 +348,52 @@ body {
     font-size: 30px
 }
 
+/*----------------------------------------------------------------*/
+.jumbotron3 {
+    background-image: url(../Assets/laptop2-.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricing_box {
+    padding: 00px;
+    margin-top: 45px;
+
+
+}
+
+.pricing_box h5 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.pricing_box p {
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 400;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.pricing_box h6 {
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 500;
+    font-family: PlayfairDisplay-Regular;
+}
+
+.pricing_box li {
+    padding: 5px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 20px;
+}
+
+.jumbotron3-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top: 25px;
+}
