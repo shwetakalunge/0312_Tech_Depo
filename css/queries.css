@@ -1,0 +1,23 @@
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px) {
+    .intro {
+        padding-top: 100px
+    }
+
+
+    .jumbotron h1 {
+        font-size: 40px;
+
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .jumbotron h2 {
+        font-size: 30px;
+    }
+
+    .banner-bottom-text p {
+        font-size: 10px;
+    }
+
+}
