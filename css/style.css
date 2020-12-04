@@ -174,7 +174,6 @@ body {
     color: #090909;
     line-height: 40px;
     padding-left: 25px
-
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -270,7 +269,7 @@ body {
     background-size: auto;
     background-position: center;
     border-radius: 0px;
-    background-repeat:no-repeat
+    background-repeat: no-repeat
 }
 
 .jumbotron2-button {
@@ -325,7 +324,7 @@ body {
 }
 
 .box {
-     border: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: white;
     margin-bottom: 00px;
     padding: 10px;
@@ -503,7 +502,7 @@ body {
 }
 
 .Schedule_Depo_Main {
-    max-width: 500px;
+    max-width: 530px;
     margin: auto
 }
 
@@ -546,15 +545,18 @@ body {
 }
 
 input[type=text]:focus {
-  background: none;
-color: white
+    background: none;
+    color: white;
+      font-size: 20px
 }
+
 input[type=text],
 input[type=number] {
     background: none;
     border-radius: 0px;
     border: 1px solid white;
-  font-family: proximanovaRegular;
+    font-family: proximanovaRegular;
+    font-size: 20px
 }
 
 .black-input {
