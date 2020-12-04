@@ -10,7 +10,7 @@
 html,
 body {
     overflow-x: hidden;
-     text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -21,10 +21,12 @@ body {
     height: 0;
     visibility: hidden
 }
+
 /*--------------------------------------------------------------------------------------------------*/
 .intro {
     padding-top: 120px
 }
+
 .jumbotron {
     background-image: url(../Assets/banner2.jpg);
     height: 100vh;
@@ -42,8 +44,8 @@ body {
 }
 
 .ml3 {
-  font-weight: 900;
-  font-size: 3.5em;
+    font-weight: 900;
+    font-size: 3.5em;
 }
 
 .jumbotron h2 {
@@ -62,14 +64,17 @@ body {
     width: 100%;
     min-height: 60px;
     border-radius: 5px;
-    font-family: 'ProximaNovaBold;
+    font-family: 'ProximaNovaBold';
     letter-spacing: 2.1px;
     font-weight: bold;
     font-size: 20px
 }
 
 .Header-button:hover {
-    opacity: 0.6;
+
+    background: none;
+    color: white;
+
 }
 
 .navbar {
@@ -86,7 +91,7 @@ body {
 .navbar-nav a {
     margin: 0 25px;
     color: #121212;
- font-family: 'ProximaNovaBold';
+    font-family: 'ProximaNovaBold';
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -124,26 +129,32 @@ body {
     font-size: 20px;
     color: red;
     font-family: 'ProximaNova-Regular;
+
 }
+
 /*--------------------------*/
-.Section_videoTExt{
-   
-}
-.Video_Container{
-  display: flex;
+.Section_videoTExt {}
+
+.Video_Container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
     margin: auto;
     padding: 20px
 }
-.player_container2{
+
+.player_container2 {
     width: 50%
 }
+
 .video-text2 p {
     font-size: 35px;
     font-family: 'PlayfairDisplay-Regular';
     color: #090909;
 
 }
+
 /*--------------------------------------------------------------------------------------------------------------*/
 
 .long_copy::before,
@@ -172,12 +183,20 @@ body {
     min-height: 60px;
     max-width: 230px;
     width: 100%;
+    font-family: 'ProximaNovaBold';
 
+}
+
+.long_copy_button:hover {
+    background: none;
+    color: black;
+    border: 1px solid black;
 }
 
 .Main_long_copy_button {
-    text-align: center
+    text-align: center;
 }
+
 /*---------------------------------------------------------------------------------------------------------------------*/
 .Main_GridImage {
     background-color: black;
@@ -212,7 +231,7 @@ body {
     margin-left: 15px;
     font-family: ProximaNova-Regular;
     font-size: 15px;
-   
+
 }
 
 /*-----------------------------------PATENT PENDING TECHNOLOGY-------------------------------------------------------------------------------------------------*/
@@ -234,7 +253,13 @@ body {
     min-height: 60px;
     max-width: 230px;
     width: 100%;
-    font-family: ProximaNova-Regular;
+    font-family: 'ProximaNovaBold';
+}
+
+.jumbotron2-button:hover {
+    background: none;
+    color: black;
+    border: 1px solid black;
 }
 
 .intro2 {}
@@ -252,6 +277,7 @@ body {
     margin: auto;
     display: block;
 }
+
 /*----------------------------------------WORK PRODUCT------------------------------------------------------------------------------------------------------------------------*/
 .Work-Product {
     background-color: #ededed;
@@ -327,6 +353,13 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.Litigation_Support-button:hover {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
 /*----------------------------------------------------------------------------------------------------------*/
 .Security_Cols {
     background-color: #ededed;
@@ -335,14 +368,14 @@ body {
 }
 
 .Security_Cols h3 {
-     color: #090909;
+    color: #090909;
     font-family: PlayfairDisplay-Regular;
     font-size: 40px;
     margin-bottom: 40px;
 }
 
 .box2 {
-   border: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: white;
     margin-bottom: 00px;
     padding: 10px;
@@ -417,6 +450,13 @@ body {
     border: 1px solid black;
     margin-top: 25px;
 }
+
+.jumbotron3-button:hover {
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
 /*--------------------------------------*/
 .Schedule_Depo {
     position: relative;
@@ -464,6 +504,12 @@ body {
     font-size: 20px
 }
 
+.ContactForm_Btn:hover {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
 input[type=text],
 input[type=number] {
     background: none;
@@ -471,8 +517,6 @@ input[type=number] {
     border: 1px solid white;
     color: white
 }
-
-
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------*/
