@@ -29,7 +29,8 @@
 
    .video-text2 p {
        font-size: 15px;
-        padding-left: 05px
+        padding-left: 05px;
+        line-height: 30px;
     }
 
     .jumbotron2 {
@@ -65,6 +66,7 @@
     .player_container2 {
         width: 100%
     }
+      
 }
 
 @media only screen and (max-width:320px) {
@@ -96,7 +98,8 @@
 
   .video-text2 p {
        font-size: 15px;
-      padding-left: 05px
+      padding-left: 05px;
+      
     }
 
     .intro {
