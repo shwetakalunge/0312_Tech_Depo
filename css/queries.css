@@ -55,9 +55,7 @@
         padding: 3px;
         font-size: 10px;
     }
-    .jumbotron {
-     height: auto   
-    }
+   
 }
 
 @media only screen and (max-width:320px) {
@@ -92,7 +90,5 @@
        .intro {
         padding-top: 100px
     }
-    .jumbotron {
-     height: auto   
-    }
+    
 }
