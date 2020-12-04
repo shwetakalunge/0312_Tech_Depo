@@ -10,9 +10,7 @@
     .intro {
         padding-top: 100px
     }
-    .jumbotron {
-        height: auto;
-    }
+    
 
     .jumbotron h1 {
         font-size: 40px;
@@ -112,5 +110,5 @@
     .player_container2 {
         width: 100%
     }
-    
+     
 }
