@@ -81,12 +81,9 @@ body {
     -webkit-transition: all 0.5s linear 0s;
     transition: all 0.5s linear 0s;
     z-index: 999;
-
-
 }
 
 .navbar-nav a {
-    color: black;
     margin: 0 25px;
     color: #121212;
     font-family: 'Abril Fatface';
@@ -97,7 +94,6 @@ body {
 }
 
 .navbar-toggler {
-    color: white;
     border: none;
     outline: none;
 }
@@ -179,7 +175,6 @@ body {
 .Main_GridImage_Header {
     color: white;
     padding: 20px;
-
     font-family: PlayfairDisplay-Regular;
     font-size: 40px;
 }
