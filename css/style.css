@@ -127,11 +127,10 @@ body {
 }
 /*--------------------------*/
 .Section_videoTExt{
-    background-color: aqua;
+   
 }
 .Video_Container{
   display: flex;
-   background-color: darkseagreen;
     width: 100%;
     margin: auto;
     padding: 20px
