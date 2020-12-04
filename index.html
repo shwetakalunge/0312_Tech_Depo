@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
+   
     <link rel="stylesheet" type="text/css" href="css/queries.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -18,12 +18,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
- <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+   <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Tech Depoo_BS</title>
 
@@ -339,45 +336,99 @@
             <form>
                 <div class="Schedule_Depo_Main">
                     <div class="row">
-                        <div class="col contact_form_col">
+                        <div class="col-sm-6 contact_form_col ">
                             <div class="form_box">
-                                <input type="text" class="form-control" placeholder="First name">
+                                <input type="text" class="form-control black-input" placeholder="First name" mr-b30>
                             </div>
                         </div>
-                        <div class="col contact_form_col">
+                        <div class="col-sm-6 contact_form_col">
                             <div class="form_box ">
-                                <input type="text" class="form-control" placeholder="Last name">
+                                <input type="text" class="form-control black-input" placeholder="Last name">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col contact_form_col">
+                        <div class="col-sm-6 contact_form_col">
                             <div class="form_box">
-                                <input type="text" class="form-control" placeholder="Billing Form">
+                                <input type="text" class="form-control black-input" placeholder="Billing Form">
                             </div>
                         </div>
-                        <div class="col contact_form_col">
+                        <div class="col-sm-6 contact_form_col">
                             <div class="form_box">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                <input type="text" class="form-control black-input" placeholder="Phone">
                             </div>
                         </div>
-                    </div>
+                    
 
-                    <div class="col contact_form_col">
+                    <div class="col-sm-12 contact_form_col">
 
-                        <input type="text" class="form-control" id="Message" placeholder="Message">
+                        <input type="text" class="form-control black-input" id="Message" placeholder="Message">
                     </div>
-                    <div class="col contact_form_col">
+                    <div class="col-sm-12 contact_form_col">
                         <div class="row">
                             <button type="button" class="ContactForm_Btn">Submit</button>
                         </div>
                     </div>
+                        </div>
                 </div>
             </form>
         </div>
     </section>  
     <!------------------------------------------------------------------------------------------------------------------------------------------>
-
+<!--
+<section class="contact-wrap" id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+                    <div class="contact-form">
+                        <div class="section-title-block contact-title s-white-title text-center">
+                            <h3>
+                                Schedule a depo
+                            </h3>
+                        </div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group mr-b30">
+                                        <input type="text" class="form-control black-input" id="name" placeholder="Name">
+                                        <small id="nameError" class="error-text"></small>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group mr-b30">
+                                        <input type="text" class="form-control black-input" id="emailId" placeholder="Email">
+                                        <small id="emailError" class="error-text"></small>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group mr-b30">
+                                        <input type="text" class="form-control black-input" id="firmName" placeholder="Billing Firm">
+                                        <small id="firmError" class="error-text"></small>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group mr-b30">
+                                        <input type="text" class="form-control black-input" id="phoneNo" placeholder="Phone #">
+                                        <small id="phoneError" class="error-text"></small>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group mr-b40">
+                                        <textarea name="" class="form-control black-input" id="massage" rows="2" placeholder="Message"></textarea>
+                                        <small id="msgError" class="error-text"></small>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="button" class="white-btn btn-h60 mx-auto btn-w200" onclick="inquiryForm()">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
     <!------------------------------------------------------------------------------------------------------------------------------------------>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -1,3 +1,27 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: merriweatherBold;
+    src: url(Merriweather-Bold.ttf)
+}
+
+@font-face {
+    font-family: proximanovaRegular;
+    src: url(ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: proximanovaBold;
+    src: url(ProximaNovaBold.otf);
+}
+
+
+@font-face {
+    font-family: playfairdisplayRegular;
+    src: url(PlayfairDisplay-Regular.ttf);
+}
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +36,6 @@ body {
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
 }
-
 
 .clearfix:after {
     content: ".";
@@ -58,23 +81,20 @@ body {
 .Header-button {
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: 1px solid black;
     max-width: 230px;
     width: 100%;
     min-height: 60px;
     border-radius: 5px;
-    font-family: 'ProximaNovaBold';
+    font-family: proximanovaBold;
     letter-spacing: 2.1px;
-    font-weight: bold;
     font-size: 20px
 }
 
 .Header-button:hover {
-
     background: none;
     color: white;
-
 }
 
 .navbar {
@@ -91,11 +111,11 @@ body {
 .navbar-nav a {
     margin: 0 25px;
     color: #121212;
-    font-family: 'ProximaNovaBold';
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
+    font-family: proximanovaBold;
 }
 
 .navbar-toggler {
@@ -128,7 +148,7 @@ body {
     margin: 0px;
     font-size: 20px;
     color: red;
-    font-family: 'ProximaNova-Regular;
+    font-family: proximanovaRegular;
 
 }
 
@@ -150,7 +170,7 @@ body {
 
 .video-text2 p {
     font-size: 35px;
-    font-family: 'PlayfairDisplay-Regular';
+    font-family: playfairdisplayRegular;
     color: #090909;
 
 }
@@ -183,7 +203,7 @@ body {
     min-height: 60px;
     max-width: 230px;
     width: 100%;
-    font-family: 'ProximaNovaBold';
+    font-family: proximanovaBold;
 
 }
 
@@ -206,13 +226,18 @@ body {
 .Main_GridImage_Header {
     color: white;
     padding: 20px;
-    font-family: PlayfairDisplay-Regular;
     font-size: 40px;
+}
+
+.Main_GridImage_Header h3 {
+    font-family: playfairdisplayRegular;
 }
 
 .Main_GridImage_Header p {
     margin-bottom: 70px;
     font-size: 18px;
+    font-family: proximanovaRegular;
+
 }
 
 .GridImage {
@@ -221,7 +246,10 @@ body {
     background-color: white;
 }
 
-.GridImage img {}
+.GridImage h3 {
+    font-family: playfairdisplayRegular;
+    text-decoration: underline;
+}
 
 .GridImage1 {
     width: 250px
@@ -229,7 +257,7 @@ body {
 
 .GridImage li {
     margin-left: 15px;
-    font-family: ProximaNova-Regular;
+    font-family: proximanovaRegular;
     font-size: 15px;
 
 }
@@ -237,7 +265,6 @@ body {
 /*-----------------------------------PATENT PENDING TECHNOLOGY-------------------------------------------------------------------------------------------------*/
 .jumbotron2 {
     background-image: url(../Assets/call-bg-banner.jpg);
-    height: 100vh;
     background-size: auto;
     background-position: center;
     border-radius: 0px;
@@ -266,7 +293,7 @@ body {
 
 .intro2 p {
     font-size: 20px;
-    font-family: ProximaNovaBold;
+    font-family: proximanovaBold;
     letter-spacing: 0.4px;
     font-weight: bold;
 }
@@ -286,7 +313,7 @@ body {
 
 .Work-Product h3 {
     color: #090909;
-    font-family: PlayfairDisplay-Regular;
+    font-family: playfairdisplayRegular;
     font-size: 40px;
 }
 
@@ -308,12 +335,13 @@ body {
 .box h4 {
     margin: 15px 0px;
     font-size: 25x;
-    font-family: 'Merriweather-Bold;
+    font-family: proximanovaBold;
 
 }
 
 .box p {
-    font-size: 15px
+    font-size: 15px;
+    font-family: proximanovaRegular;
 }
 
 .jumbotron3-button {
@@ -333,15 +361,15 @@ body {
 
 .Litigation_Support h3 {
     font-size: 30px;
-    font-family: PlayfairDisplay-Regular;
+    font-family: playfairdisplayRegular;
 }
 
 .Litigation_Support p {
     font-size: 20px;
-    font-weight: bold;
     padding: 10px;
     margin-bottom: 60px;
-    margin-top: 30px
+    margin-top: 30px;
+    font-family: proximanovaRegular;
 }
 
 .Litigation_Support-button {
@@ -352,6 +380,7 @@ body {
     border: 1px solid black;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'ProximaNovaBold';
 }
 
 .Litigation_Support-button:hover {
@@ -369,7 +398,7 @@ body {
 
 .Security_Cols h3 {
     color: #090909;
-    font-family: PlayfairDisplay-Regular;
+    font-family: playfairdisplayRegular;
     font-size: 40px;
     margin-bottom: 40px;
 }
@@ -392,11 +421,12 @@ body {
 
 .box2 p {
     font-size: 15px;
+    font-family: proximanovaRegular;
 
 }
 
 .box2 h4 {
-    font-family: Merriweather-Bold;
+    font-family: merriweatherBold;
     margin: 15px 0px;
     font-size: 30px
 }
@@ -419,26 +449,26 @@ body {
 .pricing_box h5 {
     font-size: 40px;
     margin-bottom: 30px;
-    font-family: PlayfairDisplay-Regular;
+    font-family: playfairdisplayRegular;
 }
 
 .pricing_box p {
     font-size: 25px;
     padding: 5px;
     font-weight: 400;
-    font-family: PlayfairDisplay-Regular;
+    font-family: proximanovaRegular;
 }
 
 .pricing_box h6 {
     font-size: 30px;
     padding: 5px;
     font-weight: 500;
-    font-family: PlayfairDisplay-Regular;
+    font-family: merriweatherBold;
 }
 
 .pricing_box li {
     padding: 5px;
-    font-family: PlayfairDisplay-Regular;
+    font-family: proximanovaRegular;
     font-size: 20px;
 }
 
@@ -449,6 +479,7 @@ body {
     border-radius: 12px;
     border: 1px solid black;
     margin-top: 25px;
+    font-family: 'ProximaNovaBold';
 }
 
 .jumbotron3-button:hover {
@@ -469,7 +500,7 @@ body {
 }
 
 .Schedule_Depo_Main {
-    max-width: 800px;
+    max-width: 500px;
     margin: auto
 }
 
@@ -482,18 +513,18 @@ body {
     line-height: 38px;
     margin-bottom: 50px;
     color: White;
-
-
+    font-family: playfairdisplayRegular;
 }
 
-
 .form_box {
-    padding: 12px;
+
+    margin-bottom: 30px;
+
 }
 
 .ContactForm_Btn {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 10px;
     border-radius: 12px;
     border: 1px solid black;
@@ -501,7 +532,8 @@ body {
     width: 30%;
     margin: auto;
     margin-top: 30px;
-    font-size: 20px
+    font-size: 20px;
+    font-family: 'ProximaNovaBold';
 }
 
 .ContactForm_Btn:hover {
@@ -515,8 +547,16 @@ input[type=number] {
     background: none;
     border-radius: 0px;
     border: 1px solid white;
-    color: white
+
 }
 
+.black-input {
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+    border-radius: 0px;
+    font-size: 18px;
+    font-family: proximanovaRegular;
+}
 
-/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
