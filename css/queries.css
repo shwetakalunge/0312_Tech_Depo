@@ -46,6 +46,7 @@
     .jumbotron3 {
         background-image: none;
     }
+
     .navbar-toggler .fa {
         font-size: 16px;
     }
@@ -55,7 +56,14 @@
         padding: 3px;
         font-size: 10px;
     }
-   
+
+    .Video_Container {
+        display: block;
+    }
+
+    .player_container2 {
+        width: 100%
+    }
 }
 
 @media only screen and (max-width:320px) {
@@ -84,11 +92,20 @@
         padding: 3px;
         font-size: 10px;
     }
-       .video-text p {
+
+    .video-text p {
         font-size: 10px;
     }
-       .intro {
+
+    .intro {
         padding-top: 100px
     }
-    
+
+    .Video_Container {
+        display: block;
+    }
+
+    .player_container2 {
+        width: 100%
+    }
 }

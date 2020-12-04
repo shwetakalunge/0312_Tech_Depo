@@ -62,7 +62,7 @@ body {
     width: 100%;
     min-height: 60px;
     border-radius: 5px;
-    font-family: 'Abril Fatface';
+    font-family: 'ProximaNovaBold;
     letter-spacing: 2.1px;
     font-weight: bold;
     font-size: 20px
@@ -86,11 +86,11 @@ body {
 .navbar-nav a {
     margin: 0 25px;
     color: #121212;
-    font-family: 'Abril Fatface';
+ font-family: 'ProximaNovaBold';
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .navbar-toggler {
@@ -123,9 +123,22 @@ body {
     margin: 0px;
     font-size: 20px;
     color: red;
-    font-family: ProximaNova-Regular;
+    font-family: 'ProximaNova-Regular;
 }
 /*--------------------------*/
+.Section_videoTExt{
+    background-color: aqua;
+}
+.Video_Container{
+  display: flex;
+   background-color: darkseagreen;
+    width: 100%;
+    margin: auto;
+    padding: 20px
+}
+.player_container2{
+    width: 50%
+}
 .video-text p {
     font-size: 35px;
     font-family: 'PlayfairDisplay-Regular';
