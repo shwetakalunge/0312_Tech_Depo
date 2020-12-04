@@ -41,6 +41,11 @@ body {
     margin-bottom: 50px;
 }
 
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
 .jumbotron h2 {
     font-size: 60px;
     line-height: 1.0;
@@ -63,7 +68,9 @@ body {
     font-size: 20px
 }
 
-
+.Header-button:hover {
+    opacity: 0.6;
+}
 
 .navbar {
     position: absolute;
@@ -194,7 +201,8 @@ body {
 .GridImage li {
     margin-left: 15px;
     font-family: ProximaNova-Regular;
-    font-size: 17px;
+    font-size: 15px;
+   
 }
 
 /*-----------------------------------PATENT PENDING TECHNOLOGY-------------------------------------------------------------------------------------------------*/
@@ -258,7 +266,7 @@ body {
     -webkit-box-shadow: 5px 5px 5px 5px #bababa;
     box-shadow: 5px 5px 5px 5px #bababa;
     margin-top: 50px;
-    height: 80%
+    height: 100%
 }
 
 .box h4 {
@@ -323,13 +331,14 @@ body {
 }
 
 .box2 {
-    border: 1px solid #ffffff;
+   border: 1px solid #ffffff;
     background-color: white;
+    margin-bottom: 00px;
+    padding: 10px;
     -webkit-box-shadow: 5px 5px 5px 5px #bababa;
     box-shadow: 5px 5px 5px 5px #bababa;
-    margin-bottom: 30px;
-    height: 100%;
-
+    margin-top: 50px;
+    height: 100%
 }
 
 .box2 img {
