@@ -52,9 +52,10 @@ body {
 
 .jumbotron {
     background-image: url(../Assets/banner2.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
+
 }
 
 .jumbotron h1 {
