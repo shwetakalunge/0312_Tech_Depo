@@ -241,9 +241,12 @@ body {
     font-family: proximanovaRegular;
 
 }
-
+.GridImage_boxes{
+ width: 85%;
+    margin: auto
+}
 .GridImage {
-    width: 85%;
+   
     margin: auto;
     background-color: white;
 }
